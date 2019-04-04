@@ -1,0 +1,42 @@
+--J Baited
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+while wait(0.1) do
+  print'Rawr'
+  game:shutdown()
+ end
