@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>R2U API</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="main.css">
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="">
+
+		<!-- Header -->
+			<header id="header">
+                <h1><a id="logo" href="https://functionreturn.github.io/">R2U <span>by N3xul and Luminous</span></a></h1>
+                <p align="right" style="padding-right: 20px"><a href="#main" style="text-decoration:none"><strong>Top</strong></a> | <a href="https://functionreturn.github.io/" style="text-decoration:none"><strong>Purchase</strong></a></p>
+            </header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container box big">
+
+					<header class="major special">
+					  <h2>R2U API</h2>
+					  <p>Offical documentation for the R2U Server-side.<br>
+                      Official R2U Site <a href="https://functionreturn.github.io/" target="_blank">here</a>.</p>
+					</header>
+                    
+                    <h3>Intro</h3>
+                     <p>Credit to Zwolf8 developer of Infinite Yield for this wiki layout.<a href="https://github.com/Zwolf8/" target="_blank">here</a>.</p>
+                     <p>For starters, This wiki is how to use  <code>R2U</code> with all of its functions and commands. <code>chat</code>, <code>LoadScript</code>, and <code>Executor</code>.
+                      <br>
+
+                     </p>
+                    <strong>Note: </strong>A few functions are missing due to the current WIP development.<br>
+                    <ul>
+                        <strong>Functions/information include:</strong>
+                        <li>Executor</li>
+                        <li>Chat</li>
+                        <li>LoadScript</li>
+                    </ul>
+                    
+                    <!--Index-->
+                    <section>
+                        <hr>
+                        <a class="anchor" id="index"></a>
+                        <h3>Index</h3>
+                        <p>Click the links below to learn more about a given function!</p>
+                        <ul>
+                            <li><a href="#EXE">Executor</a></li>
+                            <li><a href="#CHAT">Chat</a></li>
+                            <li><a href="#LS">LoadScript</a></li>
+                            <li><a href="#SET">Settings</a></li>
+                            <li><a href="#OPT">Options</a></li>
+                            <li><a href="#NL">Ex</a></li>
+
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container"> </div>
+				<ul class="copyright">
+				  <li>R2U made by N3xul and Luminous.</li>
+				</ul>
+			</div>
+
+		<!-- Scripts -->
+			<script src="jquery.min.js.download"></script>
+			<script src="jquery.dropotron.min.js.download"></script>
+			<script src="jquery.scrollgress.min.js.download"></script>
+			<script src="skel.min.js.download"></script>
+			<script src="util.js.download"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="main.js.download"></script>
+
+	
+<div id="titleBar"><a href="https://functionreturn.github.io/R2UWiki/Synapse_API#index" class="toggle"></a><span class="title">R2U <span>by N3xul and Luminous</span></span></div><div id="navPanel"><nav></nav></div></body></html>
