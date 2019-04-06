@@ -45,15 +45,19 @@ img.logo {
 	font-size: 20px;
 	padding: 4px 7px;
 	outline: 0;
-	text-align: center;
+	text-align: center; 
+	width: 27%;
+	min-width: 200px;
+	margin-bottom: 1.5%;
 }
 
 .content {
 	position: fixed;
 	bottom: 0;
+	left: 0;
+	right: 0;
 	background: rgba(0, 0, 0, 0.5);
 	color: #f1f1f1;
-	width: 100%;
 	padding: 20px;
 }
 
@@ -62,12 +66,14 @@ img.logo {
 	border-radius: 0px;
 	color: white;
 	padding: 20px;
-	text-align: center;
-	font-size: 16px;
+	font-size: 90%;
 	font-family: monospace;
 	cursor: pointer;
 	box-shadow: 5px 5px 10px black;
 	background-color: rgb(220, 50, 164);
+	width: 5%;
+	min-width: 80px;
+	text-align: center;
 }
 
 #paBtn:hover {
