@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-.fullscreen-bg {
+.bgcontainer {
     position: fixed;
     top: 0;
     right: 0;
@@ -17,7 +17,7 @@
     z-index: -100;
 }
 
-.fullscreen-bg__video {
+#bgvideoblock {
     position: absolute;
     top: 0;
     left: 0;
@@ -57,18 +57,6 @@ body {
 				text-align:center;
 			}
 
-
-#myVideo {
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
 .content {
   position: fixed;
   bottom: 0;
@@ -101,7 +89,7 @@ body {
 </head>
 <body>
 
-<div class="fullscreen-bg">
+<div id="#bgvideoblock">
 	<video autoplay muted loop class="fullscreen-bg__video">
   		<source src="forest.mp4" type="video/mp4">
   		Your browser does not support HTML5 video.
@@ -123,7 +111,7 @@ body {
 </div>
 
 <script>
-var video = document.getElementById("myVideo");
+var video = document.getElementById("#bgvideoblock");
 var btn = document.getElementById("myBtn");
 
 function myFunction() {
