@@ -1,129 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.bgcontainer {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-}
-
-#bgvideoblock {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
-}
-
-			h1.poison
-			{
-				color: rgb(255, 255, 255);
-				font-family: monospace;
-				font-size: 18px;
-				margin-bottom: 30px;
-				text-shadow: 2px 2px #000000;
-				
-			}
-            
-            img.logo
-			{
-				margin-bottom: 25px;
-			}
-            
-			.button 
-			{
-				border: 3px solid gray;
-				border-radius: 10px;
-				box-shadow: 2px 2px 3px #666;
-				color: white;
-				background-color: rgb(232, 232, 232);
-				font-size: 20px;  
-				padding: 4px 7px;  
-				outline: 0;
-				text-align:center;
-			}
-
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-
-#paBtn {
-				border-width: 0px;
-				border-radius: 0px;
-				color: white;
-				padding: 20px;
-				text-align: center;
-				font-size: 16px;
-				font-family: monospace;
-				cursor: pointer;
-				box-shadow: 5px 5px 10px black;
-                background-color: rgb(220,50,164);
-
-
-#paBtn:hover {
-  background: #e8e8e8;
-  color: black;
-  
-}
-</style>
-</head>
-<body>
-
-<div class="bgcontainer">
-	<video autoplay muted loop id="bgvideoblock">
-  		<source src="forest.mp4" type="video/mp4">
-  		Your browser does not support HTML5 video.
-	</video>
-</div>
-
-<div class="content">
-  		<title>Pick your poison.</title>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Pick your poison.</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
-
 	<body>
-		<center>
-			<h1 class="poison">Pick your poison.</h1>
-			<a href="https://functionreturn.github.io/buy.html">
-				<img class="button" src="logo.png" width="500px">
-			</a><br><br>
-		</center>
-  <button id="paBtn" onclick="myFunction()">Pause</button>
-</div>
-
-<script>
-var video = document.getElementById("bgvideoblock");
-var btn = document.getElementById("myBtn");
-
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    paBtn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    paBtn.innerHTML = "Play";
-  }
-}
-</script>
-
-</body>
+		<div class="bgcontainer">
+			<video autoplay muted loop id="bgvideoblock">
+				<source src="forest.mp4" type="video/mp4">
+				Your browser does not support HTML5 video.
+			</video>
+		</div>
+		<div class="content">
+			<center>
+				<h1 class="poison">Pick your poison.</h1>
+				<a href="https://functionreturn.github.io/buy.html">
+					<img class="button" src="logo.png" width="500px">
+				</a><br><br>
+			</center>
+			<button id="paBtn" onclick="myFunction()">Pause</button>
+		</div>
+		<script>
+			var video = document.getElementById("bgvideoblock");
+			var btn = document.getElementById("myBtn");
+			function myFunction() {
+				if (video.paused) {
+					video.play();
+					paBtn.innerHTML = "Pause";
+				} else {
+					video.pause();
+					paBtn.innerHTML = "Play";
+				}
+			}
+		</script>
+	</body>
 </html>
